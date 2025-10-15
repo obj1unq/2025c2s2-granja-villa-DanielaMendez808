@@ -10,4 +10,9 @@ object personaje {
 		game.addVisual(planta)
 		planta.position(self.position())
 	}
+	method verificarQueNohayPlantaAntes(planta){
+		if(position.sembrar(planta)){
+			error
+		}
+	}
 }
